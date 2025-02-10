@@ -15,14 +15,17 @@
   </head>
   <body>
     <!-- header -->
-    <header class="border-2 border-red-400">
+     <!-- border-2 border-red-400 -->
+    <header class="">
       <!-- navbar start -->
+       <!-- border-2 border-green-400 -->
       <nav
-        class="flex items-center justify-between max-w-sm mx-4 md:max-w-7xl md:mx-auto md:my-2.5 border-2 border-green-400"
+        class="flex items-center justify-between max-w-sm mx-4 md:max-w-7xl md:mx-auto md:my-2.5 "
       >
         <!-- nav logo -->
+            <!-- box-border border-cyan-400 -->
         <div
-          class="flex items-center justify-center space-x-2 box-border border-cyan-400"
+          class="flex items-center justify-center space-x-2 "
         >
           <img
             src="B11-A3-Living-Lab/Assignment_03_Category_0001/c1-assets/logo-header.png"
@@ -36,8 +39,9 @@
         <!-- nav midlle description -->
         <div class="box-border">
           <!-- imidiate parrent tag কে দিতে হয়। -->
+           <!-- border-indigo-500 -->
           <ul
-            class="md:flex items-center justify-between space-x-2 hidden box-border border-indigo-500"
+            class="md:flex items-center justify-between space-x-2 hidden box-border "
           >
             <!--এখানে flex দিয়ে manage দিচ্ছি তাই md:block দিই না -->
             <!--  hidden দিলে overrude করতে block দিতে হবে। -->
@@ -62,8 +66,9 @@
           <!-- hidden জায়গা ধরে রাখে না invisible জায়গা ধরে রাখে -->
           <i class="fa-solid fa-bars visible md:hidden"></i>
           <!-- login button -->
+           <!-- border-yellow-400 px-7 border-2 -->
           <button
-            class="border-yellow-400 px-7 border-2 rounded hidden md:block"
+            class=" rounded hidden md:block"
           >
             Login
           </button>
@@ -89,8 +94,9 @@
         <div
           class="md:max-w-3xl max-w-sm absolute md:left-0 bottom-20 md:top-0 -my-6"
         >
+        <!-- border-2 border-orange-400 -->
           <h1
-            class="md:text-5xl text-3xl font-bold md:my-3 space-y-3 border-2 border-orange-400"
+            class="md:text-5xl text-3xl font-bold md:my-3 space-y-3 "
           >
             Pamper Your Pet,<br />
             Because They Deserve<br />the Bes
@@ -116,13 +122,15 @@
         <!-- main parent-cart -->
 
         <!-- grid-rows-3 দিলে এটা জায়গা reserve করে রাখছিল । এটা সরালে auto নিবে-->
+         <!-- border border-black  -->
         <section
-          class="grid grid-cols-2 md:grid-cols-6 gap-2 items-center justify-between max-w-sm mx-4 md:max-w-7xl mx-auto my-2.5 border border-black "
+          class="grid grid-cols-2 md:grid-cols-6 gap-2 items-center justify-between max-w-sm mx-4 md:max-w-7xl mx-auto my-2.5 "
         >
           <!-- card-1 start -->
           <!-- md:max-h-60 -->
+           <!-- border-2 border-red-500 -->
           <div
-            class="bg-[#F9DF8A] md:max-w-52 md:max-h-64 max-w-52 max-h-64 rounded border-2 border-red-500 flex flex-col items-center justify-evenly py-9"
+            class="bg-[#F9DF8A] md:max-w-52 md:max-h-64 max-w-52 max-h-64 rounded  flex flex-col items-center justify-evenly py-9"
           >
             <!-- rounded box  -->
 
@@ -139,8 +147,9 @@
             ❌ চাইল্ডের height প্রয়োজন নেই, কিন্তু থাকলে কোনো সমস্যা নেই।
 
             -->
+            <!-- border-2 border-black -->
             <div
-              class="w-24 h-24 bg-white rounded-full border-2 border-black flex"
+              class="w-24 h-24 bg-white rounded-full  flex"
             >
               <!-- dog image কে center এ রাখতে mx-auto & my-auto ব্যবহার করলাম -->
               <img
@@ -150,7 +159,8 @@
               />
             </div>
             <!-- এখানে mx-auto my-auto নিই নাই কারণ text center দিলেই x axis wise center & y axis wise কাজ করাতে parent container এর justified content কাজ করছে  -->
-            <div class="text-center border-2 border-cyan-400 mb-8">
+             <!-- border-2 border-cyan-400 -->
+            <div class="text-center  mb-8">
               <h1 class="font-bold text-xl">Dog</h1>
               <p class="text-base">3 Items</p>
             </div>
@@ -158,13 +168,14 @@
           <!-- card-1 close -->
 
           <!-- card-2 start -->
+           <!-- border-2 border-red-500  -->
           <div
-            class="bg-[#F9DF8A] md:max-w-52 md:max-h-64 max-w-52 max-h-64 rounded border-2 border-red-500 flex flex-col items-center justify-evenly py-9"
+            class="bg-[#F9DF8A] md:max-w-52 md:max-h-64 max-w-52 max-h-64 rounded flex flex-col items-center justify-evenly py-9"
           >
             <!-- rounded box  -->
-
+            <!-- border-2 border-black -->
             <div
-              class="w-24 h-24 bg-white rounded-full border-2 border-black flex"
+              class="w-24 h-24 bg-white rounded-full  flex"
             >
               <!-- dog image কে center এ রাখতে mx-auto & my-auto ব্যবহার করলাম -->
               <img
@@ -174,7 +185,8 @@
               />
             </div>
             <!-- এখানে mx-auto my-auto নিই নাই কারণ text center দিলেই x axis wise center & y axis wise কাজ করাতে parent container এর justified content কাজ করছে  -->
-            <div class="text-center border-2 border-cyan-400 mb-8">
+            <!-- border-2 border-cyan-400 -->
+            <div class="text-center  mb-8">
               <h1 class="font-bold text-xl">Dog</h1>
               <p class="text-base">3 Items</p>
             </div>
@@ -182,13 +194,14 @@
           <!-- card-2-close -->
 
           <!-- card-3 start -->
+            <!-- border-2 border-red-500 -->
           <div
-            class="bg-[#F9DF8A] md:max-w-52 md:max-h-64 max-w-52 max-h-64 rounded border-2 border-red-500 flex flex-col items-center justify-evenly py-9"
+            class="bg-[#F9DF8A] md:max-w-52 md:max-h-64 max-w-52 max-h-64 rounded  flex flex-col items-center justify-evenly py-9"
           >
             <!-- rounded box  -->
-
+            <!-- border-2 border-black -->
             <div
-              class="w-24 h-24 bg-white rounded-full border-2 border-black flex"
+              class="w-24 h-24 bg-white rounded-full  flex"
             >
               <!-- dog image কে center এ রাখতে mx-auto & my-auto ব্যবহার করলাম -->
               <img
@@ -198,7 +211,8 @@
               />
             </div>
             <!-- এখানে mx-auto my-auto নিই নাই কারণ text center দিলেই x axis wise center & y axis wise কাজ করাতে parent container এর justified content কাজ করছে  -->
-            <div class="text-center border-2 border-cyan-400 mb-8">
+            <!-- border-2 border-cyan-400 -->
+            <div class="text-center  mb-8">
               <h1 class="font-bold text-xl">Dog</h1>
               <p class="text-base">3 Items</p>
             </div>
@@ -206,13 +220,14 @@
           <!-- card-3 end -->
 
           <!-- card-4-start -->
+           <!-- border-2 border-red-500 -->
           <div
-            class="bg-[#F9DF8A] md:max-w-52 md:max-h-64 max-w-52 max-h-64 rounded border-2 border-red-500 flex flex-col items-center justify-evenly py-9"
+            class="bg-[#F9DF8A] md:max-w-52 md:max-h-64 max-w-52 max-h-64 rounded  flex flex-col items-center justify-evenly py-9"
           >
             <!-- rounded box  -->
-
+            <!-- border-2 border-black -->
             <div
-              class="w-24 h-24 bg-white rounded-full border-2 border-black flex"
+              class="w-24 h-24 bg-white rounded-full  flex"
             >
               <!-- dog image কে center এ রাখতে mx-auto & my-auto ব্যবহার করলাম -->
               <img
@@ -222,7 +237,8 @@
               />
             </div>
             <!-- এখানে mx-auto my-auto নিই নাই কারণ text center দিলেই x axis wise center & y axis wise কাজ করাতে parent container এর justified content কাজ করছে  -->
-            <div class="text-center border-2 border-cyan-400 mb-8">
+            <!-- border-2 border-cyan-400 -->
+            <div class="text-center  mb-8">
               <h1 class="font-bold text-xl">Dog</h1>
               <p class="text-base">3 Items</p>
             </div>
@@ -230,13 +246,14 @@
           <!-- card-4 end -->
 
           <!-- card-5-start -->
+           <!-- border-2 border-red-500 -->
           <div
-            class="bg-[#F9DF8A] md:max-w-52 md:max-h-64 max-w-52 max-h-64 rounded border-2 border-red-500 flex flex-col items-center justify-evenly py-9"
+            class="bg-[#F9DF8A] md:max-w-52 md:max-h-64 max-w-52 max-h-64 rounded  flex flex-col items-center justify-evenly py-9"
           >
             <!-- rounded box  -->
-
+            <!-- border-2 border-black -->
             <div
-              class="w-24 h-24 bg-white rounded-full border-2 border-black flex"
+              class="w-24 h-24 bg-white rounded-full  flex"
             >
               <!-- dog image কে center এ রাখতে mx-auto & my-auto ব্যবহার করলাম -->
               <img
@@ -246,7 +263,8 @@
               />
             </div>
             <!-- এখানে mx-auto my-auto নিই নাই কারণ text center দিলেই x axis wise center & y axis wise কাজ করাতে parent container এর justified content কাজ করছে  -->
-            <div class="text-center border-2 border-cyan-400 mb-8">
+             <!-- border-2 border-cyan-400 -->
+            <div class="text-center  mb-8">
               <h1 class="font-bold text-xl">Dog</h1>
               <p class="text-base">3 Items</p>
             </div>
@@ -254,14 +272,15 @@
           <!-- card-5 end -->
 
           <!-- card-6-start -->
+           <!-- border-2 border-red-500 -->
           <div
-            class="bg-[#F9DF8A] md:max-w-52 md:max-h-64 max-w-52 max-h-64 rounded border-2 border-red-500 flex flex-col items-center justify-evenly py-9"
+            class="bg-[#F9DF8A] md:max-w-52 md:max-h-64 max-w-52 max-h-64 rounded  flex flex-col items-center justify-evenly py-9"
           >
             <!-- rounded box  -->
 
-      
+            <!-- border-2 border-black -->
             <div
-              class="w-24 h-24 bg-white rounded-full border-2 border-black flex"
+              class="w-24 h-24 bg-white rounded-full  flex"
             >
               <!-- dog image কে center এ রাখতে mx-auto & my-auto ব্যবহার করলাম -->
               <img
@@ -271,7 +290,8 @@
               />
             </div>
             <!-- এখানে mx-auto my-auto নিই নাই কারণ text center দিলেই x axis wise center & y axis wise কাজ করাতে parent container এর justified content কাজ করছে  -->
-            <div class="text-center border-2 border-cyan-400 mb-8">
+             <!-- border-2 border-cyan-400 -->
+            <div class="text-center  mb-8">
               <h1 class="font-bold text-xl">Dog</h1>
               <p class="text-base">3 Items</p>
             </div>
@@ -283,23 +303,27 @@
       <!-- main-card section close -->
 
       <!-- 2nd section -->
-      <section class="bg-[#FFF9F4] w-full border-2 border-black">
+       <!-- border-2 border-black -->
+      <section class="bg-[#FFF9F4] w-full ">
         <div class="mx-4 my-32 max-w-sm md:max-w-7xl md:mx-auto my-2.5 border-2 border-red-500">
           <!-- heading trending pet -->
           <h1 class="md:mt-36 md:mb-12">Trending Pet Products</h1>          
             <!-- section-2_left-box start -->
             <section class=" grid md:grid-cols-5 grid-cols-2 gap-4">
                   <!-- parent div কে relative  -->
-                  <div class="border border-black col-span-2 row-span-3 flex relative bg-orange-400 rounded-md">
+                   <!-- border border-black -->
+                  <div class=" col-span-2 row-span-3 flex relative bg-orange-400 rounded-md">
                         <!--section-2_left-box description start -->
                         <div class="mt-12 mx-4   ">
                               <h1 class="mb-3">T- Shirt For Dogs</h1>
                               <p class="mb-3">Discover a world of treats, toys, and essentials handpicked for ?</p>
-                              <button class="bg-red-500 border-2 border-black mb-40">Learn More</button>
+                              <!-- border-2 border-black -->
+                              <button class="bg-red-500  mb-40">Learn More</button>
                         </div>
                         <!--section-2_left-box description close -->
                         <!--section-2_left-box img start. child কে absoulate-->
-                        <img src="B11-A3-Living-Lab/Assignment_03_Category_0001/c1-assets/cute-pet-small.png" alt="" class=" border-2 border-black  absolute right-0 bottom-0">
+                        <!-- border-2 border-black -->
+                        <img src="B11-A3-Living-Lab/Assignment_03_Category_0001/c1-assets/cute-pet-small.png" alt="" class="   absolute right-0 bottom-0">
             </div>
             <!--section-2_left-box close --> 
 
@@ -307,16 +331,19 @@
 
           
             <!-- section-2_right-box-1 start -->
-            <div class="bg-[#FFF9F4] flex items-center justify-center  border-2 border-red-500 rounded-md">  
+             <!-- border-2 border-red-500 -->
+            <div class="bg-[#dbdad9] flex items-center justify-around   rounded-md">  
                   <!--section-2_right-box-1 img start -->
-                  <div class="bg-[#cf803f] rounded-md border-2 border-green-500 ">
+                  <!-- border-2 border-green-500 -->
+                  <div class="bg-[#cf803f] rounded-md  ">
                   
                         <img src="B11-A3-Living-Lab/Assignment_03_Category_0001/c1-assets/dog-cartoon.png" alt=""/>
                   </div>
                   <!--section-2_right-box-1 img close -->
 
                   <!-- section-2_right-box-1 description start-->
-                  <div class="border-2 border-black ">
+                   <!-- border-2 border-black -->
+                  <div class=" ">
                         <h1>Pet Bed</h1>
                         <p>$39.99</p>
                   </div>
@@ -328,16 +355,19 @@
 
 
             <!-- section-2_right-box-2 start -->
-            <div class="bg-[#FFF9F4] flex items-center justify-center  border-2 border-red-500 rounded-md">  
+             <!-- border-2 border-red-500 -->
+            <div class="bg-[#dbdad9] flex items-center justify-around   rounded-md">  
                   <!--section-2_right-box-2 img start -->
-                  <div class="bg-[#cf803f] rounded-md border-2 border-green-500 ">
+                  <!-- border-2 border-green-500 -->
+                  <div class="bg-[#cf803f] rounded-md  ">
                   
                         <img src="B11-A3-Living-Lab/Assignment_03_Category_0001/c1-assets/dog-cartoon.png" alt=""/>
                   </div>
                   <!--section-2_right-box-2 img close -->
 
                   <!-- section-2_right-box-2 description start-->
-                  <div class="border-2 border-black ">
+                   <!-- border-2 border-black -->
+                  <div class=" ">
                         <h1>Pet Bed</h1>
                         <p>$39.99</p>
                   </div>
@@ -348,16 +378,19 @@
             <!-- 3 start -->
 
             <!-- section-2_right-box-3 start -->
-            <div class="bg-[#FFF9F4] flex items-center justify-center  border-2 border-red-500 rounded-md">  
+             <!-- border-2 border-red-500 -->
+            <div class="bg-[#dbdad9] flex items-center justify-around   rounded-md">  
                   <!--section-2_right-box-3 img start -->
-                  <div class="bg-[#cf803f] rounded-md border-2 border-green-500 ">
+                  <!-- border-2 border-green-500 -->
+                  <div class="bg-[#cf803f] rounded-md  ">
                   
                         <img src="B11-A3-Living-Lab/Assignment_03_Category_0001/c1-assets/dog-cartoon.png" alt=""/>
                   </div>
                   <!--section-2_right-box-3 img close -->
 
                   <!-- section-2_right-box-3 description start-->
-                  <div class="border-2 border-black ">
+                   <!-- border-2 border-black -->
+                  <div class=" ">
                         <h1>Pet Bed</h1>
                         <p>$39.99</p>
                   </div>
@@ -367,16 +400,18 @@
 
             <!-- 4 -->
              <!-- section-2_right-box-4 start -->
-            <div class="bg-[#FFF9F4] flex items-center justify-center  border-2 border-red-500 rounded-md">  
+            <div class="bg-[#dbdad9] flex items-center justify-around   rounded-md">  
                   <!--section-2_right-box-4 img start -->
-                  <div class="bg-[#cf803f] rounded-md border-2 border-green-500 ">
+                  <!-- border-2 border-green-500 -->
+                  <div class="bg-[#cf803f] rounded-md  ">
                   
                         <img src="B11-A3-Living-Lab/Assignment_03_Category_0001/c1-assets/dog-cartoon.png" alt=""/>
                   </div>
                   <!--section-2_right-box-4 img close -->
 
                   <!-- section-2_right-box-4 description start-->
-                  <div class="border-2 border-black ">
+                   <!-- border-2 border-black -->
+                  <div class=" ">
                         <h1>Pet Bed</h1>
                         <p>$39.99</p>
                   </div>
@@ -387,16 +422,18 @@
             <!-- 5 -->
 
             <!-- section-2_right-box-5 start -->
-            <div class="bg-[#FFF9F4] flex items-center justify-center  border-2 border-red-500 rounded-md">  
+            <div class="bg-[#dbdad9] flex items-center justify-around   rounded-md">  
                   <!--section-2_right-box-5 img start -->
-                  <div class="bg-[#cf803f] rounded-md border-2 border-green-500 ">
+                  <!-- border-2 border-green-500 -->
+                  <div class="bg-[#cf803f] rounded-md  ">
                   
                         <img src="B11-A3-Living-Lab/Assignment_03_Category_0001/c1-assets/dog-cartoon.png" alt=""/>
                   </div>
                   <!--section-2_right-box-5 img close -->
 
                   <!-- section-2_right-box-5 description start-->
-                  <div class="border-2 border-black ">
+                   <!-- border-2 border-black -->
+                  <div class=" ">
                         <h1>Pet Bed</h1>
                         <p>$39.99</p>
                   </div>
@@ -406,16 +443,18 @@
 
             <!-- 6 -->
             <!-- section-2_right-box-6 start -->
-            <div class="bg-[#FFF9F4] flex items-center justify-center  border-2 border-red-500 rounded-md">  
+            <div class="bg-[#dbdad9] flex items-center justify-around   rounded-md">  
                   <!--section-2_right-box-6 img start -->
-                  <div class="bg-[#cf803f] rounded-md border-2 border-green-500 ">
+                  <!-- border-2 border-green-500 -->
+                  <div class="bg-[#cf803f] rounded-md  ">
                   
                         <img src="B11-A3-Living-Lab/Assignment_03_Category_0001/c1-assets/dog-cartoon.png" alt=""/>
                   </div>
                   <!--section-2_right-box-6 img close -->
 
                   <!-- section-2_right-box-6 description start-->
-                  <div class="border-2 border-black ">
+                   <!-- border-2 border-black -->
+                  <div class=" ">
                         <h1>Pet Bed</h1>
                         <p>$39.99</p>
                   </div>
@@ -427,16 +466,18 @@
             <!-- 7 -->
 
             <!-- section-2_right-box-7 start -->
-            <div class="bg-[#FFF9F4] flex items-center justify-center  border-2 border-red-500 rounded-md">  
+            <div class="bg-[#dbdad9] flex items-center justify-around   rounded-md">  
                   <!--section-2_right-box-7 img start -->
-                  <div class="bg-[#cf803f] rounded-md border-2 border-green-500 ">
+                  <!-- border-2 border-green-500 -->
+                  <div class="bg-[#cf803f] rounded-md  ">
                   
                         <img src="B11-A3-Living-Lab/Assignment_03_Category_0001/c1-assets/dog-cartoon.png" alt=""/>
                   </div>
                   <!--section-2_right-box-7 img close -->
 
                   <!-- section-2_right-box-7 description start-->
-                  <div class="border-2 border-black ">
+                   <!-- border-2 border-black -->
+                  <div class=" ">
                         <h1>Pet Bed</h1>
                         <p>$39.99</p>
                   </div>
@@ -449,16 +490,18 @@
             <!-- 8 -->
 
             <!-- section-2_right-box-8 start -->
-            <div class="bg-[#FFF9F4] flex items-center justify-center  border-2 border-red-500 rounded-md">  
+            <div class="bg-[#dbdad9] flex items-center justify-around   rounded-md">  
                   <!--section-2_right-box-8 img start -->
-                  <div class="bg-[#cf803f] rounded-md border-2 border-green-500 ">
+                  <!-- border-2 border-green-500 -->
+                  <div class="bg-[#cf803f] rounded-md  ">
                   
                         <img src="B11-A3-Living-Lab/Assignment_03_Category_0001/c1-assets/dog-cartoon.png" alt=""/>
                   </div>
                   <!--section-2_right-box-8 img close -->
 
                   <!-- section-2_right-box-8 description start-->
-                  <div class="border-2 border-black ">
+                   <!-- border-2 border-black -->
+                  <div class=" ">
                         <h1>Pet Bed</h1>
                         <p>$39.99</p>
                   </div>
@@ -471,16 +514,18 @@
 
 
             <!-- section-2_right-box-9 start -->
-            <div class="bg-[#FFF9F4] flex items-center justify-center  border-2 border-red-500 rounded-md">  
+            <div class="bg-[#dbdad9] flex items-center justify-around   rounded-md">  
                   <!--section-2_right-box-9 img start -->
-                  <div class="bg-[#cf803f] rounded-md border-2 border-green-500 ">
+                  <!-- border-2 border-green-500 -->
+                  <div class="bg-[#cf803f] rounded-md  ">
                   
                         <img src="B11-A3-Living-Lab/Assignment_03_Category_0001/c1-assets/dog-cartoon.png" alt=""/>
                   </div>
                   <!--section-2_right-box-9 img close -->
 
                   <!-- section-2_right-box-9 description start-->
-                  <div class="border-2 border-black ">
+                   <!-- border-2 border-black -->
+                  <div class=" ">
                         <h1>Pet Bed</h1>
                         <p>$39.99</p>
                   </div>
@@ -497,22 +542,25 @@
 
 
       <!-- section-3 start -->
-      <section class="bg-[#FFF9F4] w-full border-2 border-black mb-96">
-            <div class="mx-4 my-32 max-w-sm md:max-w-7xl md:mx-auto my-2.5 border-2 border-red-500">
+       <!-- border-2 border-black -->
+      <section class="bg-[#FFF9F4] w-full  mb-96">
+            <div class="mx-4 my-32 max-w-sm md:max-w-7xl md:mx-auto md:my-2.5 border-2 border-red-500">
                   <!-- section-3 heading -->
                   <h1>Everyday low Price</h1>
                   <!-- section-3 child box container -->
                   <div class="flex md:flex-row flex-col gap-6 justify-between ">
                         <!-- section-3 child card -->
                         <div class="flex  items-center justify-between relative   md:w-3/4 w-full md:h-96 min-h-64" style="background: linear-gradient(134.71deg, rgb(248, 204, 251) 1.286%,rgb(172, 210, 253) 100%); ">
-                              <div class="border border-black ">
+                              <!-- border border-black -->
+                              <div class=" ">
                                     <p  class="md:block hidden ">Under Price</p>
                                     <h1 class="text-xl">Pet Grooming Mitt</h1>
                                     <p class="md:block hidden">(Easy Hair Removal)</p>
                                     <p>$7.99</p>
                               </div>
                               <!-- <div class="w-1/2 max-h-96  border border-black bottom-0 right-0 absolute "> -->
-                                    <img src="B11-A3-Living-Lab/Assignment_03_Category_0001/c1-assets/cute-dog-mid.png" alt="" class="w-1/2 max-h-96  border border-black bottom-0 right-0 absolute" >
+                                    <!-- border border-black -->
+                                    <img src="B11-A3-Living-Lab/Assignment_03_Category_0001/c1-assets/cute-dog-mid.png" alt="" class="w-1/2 max-h-96   bottom-0 right-0 absolute" >
                               <!-- </div> -->
 
                         </div>
@@ -523,7 +571,8 @@
                               </div>
                               <!-- box এর মধ্যে class রাখলাম না কারণ এতে image এর height,width কমে না শুধু container div এর মাপ পরিবর্তন হয় এতে image যা সংকুচিত হওয়ার হয় এবং পরিপূর্ণ design হয় না। -->
                               <!-- <div class="w-3/4 max-h-56 md:max-h-96  border border-black bottom-0 right-0 absolute "> -->
-                                    <img src="B11-A3-Living-Lab/Assignment_03_Category_0001/c1-assets/cute-pet-mid.png" alt="" class="max-h-56 w-3/4 max-h-56 md:max-h-96  border border-black bottom-0 right-0 absolute" >
+                                    <!-- border border-black -->
+                                    <img src="B11-A3-Living-Lab/Assignment_03_Category_0001/c1-assets/cute-pet-mid.png" alt="" class="max-h-56 w-3/4 max-h-56 md:max-h-96   bottom-0 right-0 absolute" >
                               <!-- </div> -->
                         </div>
                   </div>
@@ -560,15 +609,17 @@
 
 
 
-    <footer class="relative">
+    <footer class="relative bg-orange-400">
 
 
 
 
 
       <!-- absolute -->
-     <section class="bg-[#d3915c] w-full border-2 border-black  ">
-            <div class="bg-[#FFF9F4] mx-4 my-32 max-w-sm md:max-w-7xl md:mx-auto  border-2 border-red-500 flex md:flex-row flex-col items-center justify-around md:text-left text-center absolute left-0 right-0 bottom-28 ">
+       <!-- border-2 border-black -->
+     <section class="bg-[#d3915c] w-full   ">
+            <!-- border-2 border-red-500 -->
+            <div class="bg-[#56bd89] mx-4 my-32 max-w-sm md:max-w-7xl md:mx-auto   flex md:flex-row flex-col items-center justify-around md:text-left text-center absolute left-0 right-0 bottom-2 ">
                   <!-- outer card img -->
                   <img src="B11-A3-Living-Lab/Assignment_03_Category_0001/c1-assets/cute-pet-mid.png" alt="" class="md:ml-20 md:mt-9 md:mb-9">
                   <!-- outer card description -->
@@ -591,9 +642,10 @@
 
 
 
-
-      <section class="bg-[#78d35c] w-full border-2 border-black  mt-10">
-            <div class="bg-[#FFF9F4] mx-4 my-32 max-w-sm md:max-w-7xl md:mx-auto my-2.5 border-2 border-red-500 flex md:flex-row flex-col md:items-center justify-between">
+      <!-- border-2 border-black -->
+      <section class=" w-full   mt-10 border-2 border-black">
+            <!-- border-2 border-red-500 -->
+            <div class="bg-[#FFF9F4] mx-4 my-32 max-w-sm md:max-w-7xl md:mx-auto md:my-2.5  flex md:flex-row flex-col md:items-center justify-between pt-40">
                   <div class="max-w-md ">
                         <!-- যে দুটোকে পাশাপাশি রাখব ঐ দুইটাকেই inline-block class দিব। -->
                         <img src="B11-A3-Living-Lab/Assignment_03_Category_0001/c1-assets/logo-footer.png" alt="" class="inline-block">
