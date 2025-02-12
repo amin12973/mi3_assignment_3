@@ -17,68 +17,72 @@
     <!-- header -->
      <!-- border-2 border-red-400 -->
     <header class="">
-      <!-- navbar start -->
-       <!-- border-2 border-green-400 -->
-      <nav
-        class="bg-[#FFF9F4] flex items-center justify-between max-w-sm mx-4 md:max-w-7xl md:mx-auto md:my-2.5 "
-      >
-        <!-- nav logo -->
-            <!-- box-border border-cyan-400 -->
-        <div
-          class="flex items-center justify-center space-x-2 "
-        >
-          <img
-            src="B11-A3-Living-Lab/Assignment_03_Category_0001/c1-assets/logo-header.png"
-            alt=""
-          />
-          <h1 class="hidden md:block">
-            Browse<span class="text-yellow-400">4</span>Pets
-          </h1>
-        </div>
-        <!-- nav logo close -->
-        <!-- nav midlle description -->
-        <div class="box-border">
-          <!-- imidiate parrent tag কে দিতে হয়। -->
-           <!-- border-indigo-500 -->
-          <ul
-            class="md:flex items-center justify-between space-x-2 hidden box-border "
-          >
-            <!--এখানে flex দিয়ে manage দিচ্ছি তাই md:block দিই না -->
-            <!--  hidden দিলে overrude করতে block দিতে হবে। -->
+      <!-- nav section start -->
+      <section class="bg-[#FFF9F4]">
+            <!-- navbar start -->
+            <!-- border-2 border-green-400 -->
+            <nav
+            class=" flex items-center justify-between max-w-sm mx-4 md:max-w-7xl md:mx-auto md:my-2.5 "
+            >
+            <!-- nav logo -->
+                  <!-- box-border border-cyan-400 -->
+                  <div
+                  class="flex items-center justify-center space-x-2 "
+                  >
+                  <img
+                        src="B11-A3-Living-Lab/Assignment_03_Category_0001/c1-assets/logo-header.png"
+                        alt=""
+                  />
+                  <h1 class="hidden md:block">
+                        Browse<span class="text-yellow-400">4</span>Pets
+                  </h1>
+                  </div>
+            <!-- nav logo close -->
+                  <!-- nav midlle description -->
+                  <div class="box-border">
+                  <!-- imidiate parrent tag কে দিতে হয়। -->
+                  <!-- border-indigo-500 -->
+                  <ul
+                        class="md:flex items-center justify-between space-x-2 hidden box-border "
+                  >
+                        <!--এখানে flex দিয়ে manage দিচ্ছি তাই md:block দিই না -->
+                        <!--  hidden দিলে overrude করতে block দিতে হবে। -->
 
-            <!--  hidden = সব জায়গায় লুকানো।
-                  md:block = 768px+ স্ক্রিনে display: block; হয়ে দৃশ্যমান হবে। -->
+                        <!--  hidden = সব জায়গায় লুকানো।
+                              md:block = 768px+ স্ক্রিনে display: block; হয়ে দৃশ্যমান হবে। -->
 
-            <!--  যদি hidden ব্যবহার করেন, তাহলে block, flex, grid দিয়ে দৃশ্যমান করুন।
-            ✔ যদি invisible ব্যবহার করেন, তাহলে visible দিয়ে দৃশ্যমান করুন। -->
-            <li><a href="">Find a pet</a></li>
-            <li><a href="">Breeds</a></li>
-            <li><a href="">Contact Us</a></li>
-          </ul>
-        </div>
-        <!-- nav middle description close -->
-        <div class="flex items-center justify-between gap-3 box-border">
-          <!-- search icon -->
-          <i class="fa-solid fa-magnifying-glass hidden md:block"></i>
-          <!-- bell icon -->
-          <i class="fa-regular fa-bell hidden md:block"></i>
-          <!-- bar icon -->
-          <!-- hidden জায়গা ধরে রাখে না invisible জায়গা ধরে রাখে -->
-          <i class="fa-solid fa-bars visible md:hidden"></i>
-          <!-- login button -->
-           <!-- border-yellow-400 px-7 border-2 -->
-          <button
-            class="border border-yellow-300 px-7 rounded hidden md:block"
-          >
-            Login
-          </button>
-          <!-- register button -->
-          <button class="bg-yellow-400 px-7 rounded hidden md:block">
-            Register
-          </button>
-        </div>
-      </nav>
-      <!-- nav close -->
+                        <!--  যদি hidden ব্যবহার করেন, তাহলে block, flex, grid দিয়ে দৃশ্যমান করুন।
+                        ✔ যদি invisible ব্যবহার করেন, তাহলে visible দিয়ে দৃশ্যমান করুন। -->
+                        <li><a href="">Find a pet</a></li>
+                        <li><a href="">Breeds</a></li>
+                        <li><a href="">Contact Us</a></li>
+                  </ul>
+                  </div>
+            <!-- nav middle description close -->
+                  <div class="flex items-center justify-between gap-3 box-border">
+                  <!-- search icon -->
+                  <i class="fa-solid fa-magnifying-glass hidden md:block"></i>
+                  <!-- bell icon -->
+                  <i class="fa-regular fa-bell hidden md:block"></i>
+                  <!-- bar icon -->
+                  <!-- hidden জায়গা ধরে রাখে না invisible জায়গা ধরে রাখে -->
+                  <i class="fa-solid fa-bars visible md:hidden"></i>
+                  <!-- login button -->
+                  <!-- border-yellow-400 px-7 border-2 -->
+                  <button
+                        class="border border-yellow-300 px-7 rounded hidden md:block"
+                  >
+                        Login
+                  </button>
+                  <!-- register button -->
+                  <button class="bg-yellow-400 px-7 rounded hidden md:block">
+                        Register
+                  </button>
+                  </div>
+            </nav>
+            <!-- nav close -->
+      </section>
+      <!-- nav section close -->
 
       <!-- hero start -->
       <!-- hero container -->
